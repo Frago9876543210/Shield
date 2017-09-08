@@ -32,7 +32,7 @@ class Main extends PluginBase implements Listener
 
             if ($this->count[$ip] >= 3) {
                 foreach ($this->getServer()->getOnlinePlayers() as $player) {
-                    if ($player instanceof Player) {
+                    if ($player instanceof Player && $player->isOnline()) {
                         if ($player->getAddress() == $ip) {
                             $player->close();
                         }
