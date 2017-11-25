@@ -1,4 +1,4 @@
 name: Shield
 main: shield\Main
-api: [3.0.0-ALPHA6, 3.0.0-ALPHA7, 3.0.0, 3.0.1]
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA6, 3.0.0-ALPHA7, 3.0.0, 3.0.1]
 version: 1.0.0
